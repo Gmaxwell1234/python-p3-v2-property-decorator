@@ -27,7 +27,7 @@ class Dog:
     @property
     def breed(self):
         return self._breed
-    @name.setter
+    @breed.setter
     def breed(self, breed):
         if breed in APPROVED_BREEDS:
             self._breed = breed
